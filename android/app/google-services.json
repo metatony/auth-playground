@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "790054934554",
+    "project_id": "auth-playboook",
+    "storage_bucket": "auth-playboook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790054934554:android:44564aba0d9c59f02f59a3",
+        "android_client_info": {
+          "package_name": "com.example.auth_playground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790054934554-uv9kh2b13gd6uja5bcne125hugjpqj8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5Xz1zDvMForztdMeiS2kYP64a1uyOb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790054934554-uv9kh2b13gd6uja5bcne125hugjpqj8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
