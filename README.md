@@ -13,7 +13,10 @@ flutter run
   * [x] Sign in with email & password
   * [x] Google Sign in
   * [x] Logout user
-  * [x] Reset password
+  * [x] Reset password  
+  * [x] Auth state 
+
+
 
 - #### Picture Preview
 
