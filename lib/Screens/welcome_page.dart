@@ -19,7 +19,6 @@ class Welcome extends StatelessWidget {
                 '😆',
                 style: styledtext.copyWith(fontSize: 100.sp),
               ),
-              Text('You made it !!'),
               TextButton(
                 onPressed: () async {
                   final auth = AuthServices();

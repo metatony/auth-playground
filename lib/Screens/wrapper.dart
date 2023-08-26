@@ -1,17 +1,12 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:auth_playground/Shared/exports.dart';
-import 'package:auth_playground/models/user_model.dart';
-import 'package:provider/provider.dart';
 
 class Wrapper extends StatelessWidget {
   const Wrapper({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final streamProvider = Provider.of<UserModel?>(context);
-    print(streamProvider);
-
     return Scaffold(
       body: SafeArea(
         child: ListView(
@@ -20,12 +15,13 @@ class Wrapper extends StatelessWidget {
           children: [
             // image
             SizedBox(
-                width: 280.w,
-                height: 270.h,
-                child: Image.asset(
-                  'images/amico2.png',
-                  fit: BoxFit.contain,
-                )),
+              width: 280.w,
+              height: 270.h,
+              child: Image.asset(
+                'images/amico2.png',
+                fit: BoxFit.contain,
+              ),
+            ),
             SizedBox(height: 30.h),
 
             //body text
@@ -62,7 +58,8 @@ class Wrapper extends StatelessWidget {
                 Navigator.push(
                   context,
                   PageTransition(
-                      child: streamProvider == null ? LogIn() : Welcome(),
+                      //child: streamProvider == null ? LogIn() : Welcome(),
+                      child: SignUp(),
                       type: PageTransitionType.rightToLeft),
                 );
               },

@@ -79,6 +79,7 @@ class _SignupFormState extends State<SignupForm> {
                           error = 'Error occured while creating user 🥲';
                           loading = false;
                         });
+
                         user(passwordSignupController.clear());
                       } else {
                         Navigator.push(
